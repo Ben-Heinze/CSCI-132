@@ -1,0 +1,9 @@
+Political RiffRaff is a program that reads an input file and scans it for 3 numbers.
+the first number is how many nodes to create (number of candidates)
+The two other numbers represent iteraters that cycle through the doubly circular linked list and land on specific candidates. 
+One moves clockwise and the other rotates counter clockwise.
+
+Once the two iteraters land on the same candidate, that candidate is declared the winner.
+
+Evertime the iteraters land on a number, that number is removed from the linked list until there are no candidates left.
+
